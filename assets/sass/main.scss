@@ -1,0 +1,23 @@
+//MANIFIESTO DEL PROYECTO
+
+//Variables
+@import "abstracts/variables";
+
+//Base
+@import "base/base";
+@import "base/animation";
+
+//Components
+@import "components/cards";
+@import "components/buttons";
+
+//Layout
+@import "layouts/footer";
+@import "layouts/grid";
+@import "layouts/navigation";
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/precios";
+
+//Pages
+@import "pages/home";

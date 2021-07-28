@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .100;
+    } 
+    100% {
+      opacity: 500;
+    }
+  }
+
+.main-contenido {
+                   
+        &__info__grafico--img {
+            animation: fadeIn 1.5s ease-in-out infinite;        
+        }        
+      
+}

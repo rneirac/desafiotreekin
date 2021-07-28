@@ -1,0 +1,39 @@
+.hero{
+    background: url('../img/bg-hero.svg');
+    margin-top: 6.25rem;
+    height: 130vh;
+    max-width: 100%;
+    background-size: cover;
+    background-position: top ;
+    background-repeat: no-repeat; 
+    @media (max-width: 768px) {
+    height:110vh;
+    background-size:contain;
+    background-position: center bottom;
+    margin-bottom:25px;
+        }
+    }
+
+.hero__info{
+    width: 40%;
+    padding:3em;
+    @media (max-width: 768px) {
+    width: 100%;
+    padding:3em;
+    }
+    
+
+&-titulo{
+    font-family: $raleway;
+    font-size:$xxxxx-large;
+    color:$raising-black;
+    }
+
+&-parrafo{
+    font-family: $open-sans;
+    font-size: $medium;
+    color:$raising-black;
+    line-height: 1.75rem;
+    margin-top:1.25rem;
+    }    
+}
